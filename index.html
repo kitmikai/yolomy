@@ -2,6 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/yolomy.css">
     <title>Yolomy Clothing</title>
@@ -38,10 +39,27 @@
         </div>
 
       </div>
-      <div class="separator">
-        <button type="button" name="all-products">see all products</button>
 
-      </div>
+      <section>
+        <div class="product-list-bar">
+          <div class="form-object">
+            <form method="post">
+              <fieldset>
+                <input type="checkbox" name="product-category" value="men" id="men">
+                <label for="dogs">MEN</label>
+                <input type="checkbox" name="product-category" value="women" id="women">
+                <label for="dogs">WOMEN</label>
+                <input type="checkbox" name="product-category" value="children" id="children">
+                <label for="dogs">CHILDREN</label>
+                <button class="button-style" type="button" name="button">SEE ALL PRODUCTS</button>
+              </fieldset>
+
+            </form>
+          </div>
+        </div>
+
+      </section>
+
       <div class="row">
         <div class="col-md-3">
           <img src="./assets/products/tshirt.png" alt="">
@@ -76,6 +94,11 @@
 
       <section>
         <div class="about">
+          <h3 class="about-title">ABOUT</h3>
+          <p class="about-text">This is where high-fashion clothing is designed
+             and crafted from the heart by an amazing team of craftsmen and
+             designers who understand fashion.
+         </p>
 
 
         </div>
@@ -110,7 +133,7 @@
 
             </div>
             <div class="col-md-4">
-              <h3>We are social</h3>
+              <h3 class="text-center">We are social</h3>
               <div class="row">
                 <div class="col-sm-3">
                   <img class="foot-img" src="./assets/social_icons/g_plus.png" alt="">
@@ -147,15 +170,15 @@
             <div class="col-md-4">
               <div class="mini-nav">
                 <div class="mini-nav-link">
-                  <a href="#">credits</a>
+                  <a href="#">credits</a>  |
 
                 </div>
                 <div class="mini-nav-link">
-                  <a href="#">privacy</a>
+                  <a href="#">privacy</a>  |
 
                 </div>
                 <div class="mini-nav-link">
-                  <a href="#">about</a>
+                  <a href="#">about</a>  |
 
                 </div>
                 <div class="mini-nav-link">

@@ -68,6 +68,40 @@ body {
   font-stretch:semi-expanded;
 }
 
+/* Products list bar */
+.product-list-bar {
+  padding:47px 0px 20px 80px;
+  background-color: teal;
+  height:140px;
+  width:100%;
+  font-weight: bold;
+
+}
+
+form > fieldset > input {
+  margin-right: 20px;
+  margin-left: 20px;
+  padding-right: 10px;
+
+}
+
+.button-style {
+  margin-left: 325px;
+  background-color: #800000;
+  color: white;
+  border: 1px solid #800000;
+  padding:10px 25px 10px 25px;
+  font-size: 0.775em;
+  font-weight: 500;
+  height:50px;
+}
+
+.button-style:hover {
+  background-color: #c70039;
+  border: 1px solid #c70039;
+  color: white;
+}
+
 .about {
   background-image: url("../assets/backgrounds/about.jpg");
   background-repeat: no-repeat;
@@ -76,11 +110,28 @@ body {
   height:402px;
 }
 
+.about-text {
+  margin: 0px 0px 0px 400px;
+  padding-top: 80px;
+  width: 500px;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 1.8em;
+  color: white;
+
+
+}
+
+.about-title {
+
+}
+
 .promo-bar {
   display: flex;
-  background-color: #36454f;
+  background-color: #737373;
   color: white;
-  padding: 25px 15px 5px 100px;
+  padding: 25px 15px 5px 75px;
 
 }
 .promo-text {
@@ -93,8 +144,8 @@ body {
 
 footer {
   color: white;
-  background-color: #999;
-  padding: 50px 0px 20px 100px;
+  background-color: #595959;
+  padding: 50px 0px 20px 75px;
 }
 .copy {
   text-transform: uppercase;
@@ -115,7 +166,8 @@ footer {
 
 .slogan-text {
   font-size: 1.4em;
-  
+  font-weight: 500;
+
 
 }
 
@@ -125,8 +177,8 @@ footer {
 }
 
 .mini-nav-link {
-  margin-right: 10px;
-  padding: 0px 0px 10px 0px;
+  margin-right: 4px;
+  padding: 0px 0px 8px 0px;
   text-transform: uppercase;
 
 }
@@ -135,6 +187,7 @@ footer {
   text-decoration: none;
   color: white;
   font-size: .870em;
+  font-weight: 500;
 
 }
 
@@ -142,6 +195,8 @@ footer {
   padding: 20px 0px 10px 0px;
 }
 
-.img-spacer {
+.text-center {
+  text-align: center;
+  font-size: 1.45em;
 
 }
