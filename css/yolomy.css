@@ -34,6 +34,10 @@ fieldset {
 
 }
 
+form > input {
+  padding-right: 100px;
+}
+
 .resize {
   padding:0px;
   max-width: 1280px;
@@ -69,7 +73,6 @@ fieldset {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
 }
-
 
 .nav-link-wrapper {
   height: 22px;
@@ -114,7 +117,6 @@ fieldset {
 .scroll-down {
     position: relative;
     margin: 0px 625px 0px 625px;
-
 }
 
 /* Products list bar */
@@ -124,11 +126,10 @@ fieldset {
   height:140px;
   width:100%;
   font-weight: bold;
-
 }
 
 .button-style {
-  margin-left: 525px;
+  margin-left: 625px;
   background-color: #800000;
   color: white;
   border: 1px solid #800000;
@@ -144,6 +145,59 @@ fieldset {
   color: white;
 }
 
+/* Product items styling */
+.product-items-container {
+  margin: 0px 75px 0px 75px;
+  padding:50px 0px 50px 0px;
+
+}
+
+.product-spacer {
+  margin: 60px 35px 0px 60px;
+  padding: 20px 0px 5px 20px;
+  min-width: 25%;
+}
+
+.product-cat-bar {
+
+  padding: 40px 0px 40px 0px;
+}
+
+.product-cat-bar-title {
+  padding-top: 8px;
+  font-size: 0.9em;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+/* Card styling */
+.card-title {
+  /* display: flex;
+  margin:0px 15px 13px 15px;
+}
+
+.card-body {
+  /* margin: 0px 40px 0px 40px; */
+}
+
+.item-footer {
+  display: flex;
+}
+
+.item-name {
+  text-align: left;
+  text-transform: uppercase;
+  width: 75%;
+  color: #b29966;
+}
+
+.item-price {
+  text-align: right;
+}
+
+.item-spacer {
+  margin: 10% 5% 10% 5%;
+}
+
 /* About styling */
 .about {
   background-image: url("../assets/backgrounds/about.jpg");
@@ -154,10 +208,9 @@ fieldset {
   height:402px;
 }
 
-
 .about-text {
   padding: 0px 85px 5px 85px;
-  font-size: 1.3em;
+  font-size: 1.4em;
   font-weight: 600;
   line-height: 1.8em;
   color: white;
@@ -196,19 +249,15 @@ footer {
   text-transform: uppercase;
   font-size: 0.9em;
   line-height: 2.3em;
-
 }
 
 .mission-section {
   padding-top: 55px;
-
 }
 
 .slogan-text {
   font-size: 1.4em;
   font-weight: 500;
-
-
 }
 
 .mini-nav {
@@ -228,7 +277,6 @@ footer {
   color: white;
   font-size: .870em;
   font-weight: 500;
-
 }
 
 .foot-img {
@@ -238,5 +286,4 @@ footer {
 .text-center {
   text-align: center;
   font-size: 1.45em;
-
 }
