@@ -5,8 +5,33 @@ body {
   background-color: black;
 }
 section {
-  position: relative;
   background-color: white;
+}
+
+legend {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  display: table;
+  min-width: 0px;
+  max-width: 30%;
+  position: relative;
+  margin: auto;
+  padding: 10px 10px 0px 0px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+fieldset {
+  color: white;
+  display: block;
+  margin-top: 5%;
+  margin-bottom: 3%;
+  padding: 3% 3% 3% 3%;
+  border: 2px solid #b29966;
+  box-shadow: 1px 1px 1px #b29966;
+  width: 55%;
+
 }
 
 .resize {
@@ -71,6 +96,7 @@ section {
   background-color: transparent;
   text-align:center;
   padding-top: 175px;
+  padding-bottom: 200px;
 }
 
 .heading-text {
@@ -84,29 +110,29 @@ section {
   font-size: 1.55em;
   padding-top: 50px;
 }
+
+.scroll-down {
+    position: relative;
+    margin: 0px 625px 0px 625px;
+
+}
+
 /* Products list bar */
 .product-list-bar {
   padding:47px 0px 20px 80px;
-  background-color: teal;
+  background-color: #b29966;
   height:140px;
   width:100%;
   font-weight: bold;
 
 }
 
-form > fieldset > input {
-  margin-right: 20px;
-  margin-left: 20px;
-  padding-right: 10px;
-
-}
-
 .button-style {
-  margin-left: 325px;
+  margin-left: 525px;
   background-color: #800000;
   color: white;
   border: 1px solid #800000;
-  padding:10px 25px 10px 25px;
+  padding:10px 35px 10px 35px;
   font-size: 0.775em;
   font-weight: 500;
   height:50px;
@@ -118,37 +144,30 @@ form > fieldset > input {
   color: white;
 }
 
+/* About styling */
 .about {
   background-image: url("../assets/backgrounds/about.jpg");
   background-repeat: no-repeat;
-  background-size: auto;
-  padding-top: 20px;
+  background-size: c;
+  padding-top: 1px;
   width: 100%;
   height:402px;
 }
 
+
 .about-text {
-  margin: 35px 0px 0px 280px;
-  border: 2px solid white;
-  padding: 55px 75px 50px 75px;
-  /*padding-top: 80px; */
-  width: 715px;
-  text-align: center;
-  font-size: 1.5em;
+  padding: 0px 85px 5px 85px;
+  font-size: 1.3em;
   font-weight: 600;
   line-height: 1.8em;
   color: white;
 
-
 }
 
-.about-title {
-
-}
-
+/* Twitter promo bar */
 .promo-bar {
   display: flex;
-  background-color: #737373;
+  background-color: #545454;
   color: white;
   padding: 25px 15px 5px 75px;
 
@@ -163,12 +182,14 @@ form > fieldset > input {
 
 footer {
   color: white;
-  background-color: #595959;
+  background-color: #222;
   padding: 50px 0px 20px 75px;
 }
 .copy {
   text-transform: uppercase;
   padding-top: 30px;
+  text-align: center;
+  font-size: 0.85em;
 }
 
 .mission-statement {
